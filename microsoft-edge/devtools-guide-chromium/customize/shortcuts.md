@@ -12,7 +12,7 @@ keywords: microsoft edge, web development, f12 tools, devtools, custom, shortcut
 
 The **Shortcuts** page in [Settings][DevToolsCustomizeSettings] provides a list of [keyboard shortcuts in the DevTools][DevToolsShortcuts] and [features to customize the shortcuts](#match-keyboard-shortcuts-in-the-devtools-to-microsoft-visual-studio-code).  
 
-This article provides the current keyboard shortcuts in the DevTools and the actions that are triggered.  
+To navigate to the **Shortcuts** page, complete the following steps.
 
 1.  [Open DevTools][DevtoolOpenMain].  
 1.  Open [Settings][DevToolsCustomizeSettings].
@@ -25,7 +25,7 @@ This article provides the current keyboard shortcuts in the DevTools and the act
     
 ## Match keyboard shortcuts in the DevTools to Microsoft Visual Studio Code  
 
-To match the keyboard shortcuts in the Microsoft Edge DevTools for equivalent actions in [Visual Studio Code][VisualStudioCode], complete the following steps.  
+To match the keyboard shortcuts in the Microsoft Edge DevTools to equivalent actions in [Visual Studio Code][VisualStudioCode], complete the following steps.  
 
 1.  Open the **Shortcuts** page.
 1.  Choose the **Match shortcuts from preset** dropdown and change **DevTools (Default)** to **Visual Studio Code**.  
@@ -34,9 +34,7 @@ To match the keyboard shortcuts in the Microsoft Edge DevTools for equivalent ac
        Match keyboard shortcuts in the DevTools to Visual Studio Code  
     :::image-end:::  
 
-For example, to pause or continuing to run a script in [Visual Studio Code][VisualStudioCodeShortcutsKeyboardWindows], you select `F5`.  
-If you do not change values from the **DevTools (Default)** preset in the Microsoft Edge DevTools and you want to pause or continuing to run a script, you select `F8`.  
-If you change the value **Visual Studio Code** preset in the Microsoft Edge DevTools and you want to pause or continuing to run a script, you select `F5`.  
+For example, to pause or continue running a script in [Visual Studio Code][VisualStudioCodeShortcutsKeyboardWindows], you select `F5`.  With the **DevTools (Default)** preset, to pause or continue running a script, you select `F8`.  With the **Visual Studio Code** preset, you now also select `F5`, just like in [Visual Studio Code][VisualStudioCodeShortcutsKeyboardWindows].  
 
 <!-- ## Edit shortcuts for any action in the DevTools -->
 

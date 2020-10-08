@@ -47,6 +47,7 @@ The following sections describe the new experimental features that are available
 | [Enable webhint](#enable-webhint) | 85 or later |  
 | [Enable Network Console](#enable-network-console) | 85 or later |  
 | [Source Order Viewer](#source-order-viewer) | 86 or later |  
+| [Enable keyboard shortcut editor](#enable-keyboard-shortcut-editor) | 87 or later |  
 
 ### Emulation: Support dual screen mode  
 
@@ -215,6 +216,41 @@ After enabling the experiment, ensure you restart the DevTools.  To use **Source
 
 <!--Available in Microsoft Edge version 86 and later.  -->  
 
+### Enable keyboard shortcut editor
+
+With the **Enable keyboard shortcut editor** experiment turned on, you are now able to customize keyboard shortcuts for any action in the DevTools.  
+
+To customize the keyboard shortcut for a specific action, complete the following steps.
+
+1.  [Open DevTools][DevtoolOpenMain].  
+1.  Open [Settings][DevToolsCustomizeSettings].
+    *   Select `Shift`+`?`.  
+1.  Navigate to the **Shortcuts** page.  
+1.  Select the action you want to customize.  
+1.  Select **Edit** \(![EditKeyboardShortcut][ImageEditKeyboardShortcutIcon]\).  
+
+    :::image type="complex" source="./media/experiments-custom-keyboard-shortcuts-select-action.msft.png" alt-text="Select the action to customize from the Shortcuts page in Settings" lightbox="./media/experiments-custom-keyboard-shortcuts-select-action.msft.png":::
+       Select the action to customize from the **Shortcuts** page in [Settings][DevToolsCustomizeSettings]
+    :::image-end:::  
+
+1.  On the keyboard, press the keys you want to bind to the action.
+
+    :::image type="complex" source="./media/experiments-custom-keyboard-shortcuts-enter-key.msft.png" alt-text="Press the keys you want to bind to the action" lightbox="./media/experiments-custom-keyboard-shortcuts-enter-key.msft.png":::
+       Press the keys you want to bind to the action
+    :::image-end:::  
+
+1.  Save your new keyboard shortcut by selecting the checkmark \(![CheckmarkKeyboardShortcut][ImageCheckmarkKeyboardShortcutIcon]\).
+
+    :::image type="complex" source="./media/experiments-custom-keyboard-shortcuts-save-shortcut.msft.png" alt-text="Save your new keyboard shortcut by selecting the checkmark" lightbox="./media/experiments-custom-keyboard-shortcuts-enter-key.msft.png":::
+       Save your new keyboard shortcut by selecting the checkmark
+    :::image-end:::  
+
+Now, selecting your new keyboard shortcut will trigger that action in the DevTools.  
+
+On the **Shortcuts** page, the **Custom Keyboard Shortcut** icon \(![CustomKeyboardShortcut][ImageCustomKeyboardShortcutIcon]\) indicates keyboard shortcuts you have customized.  To reset all shortcuts, select **Restore default shortcuts**.  
+
+When editing the keyboard shortcuts for an action, select the X \(![XKeyboardShortcut][ImageXKeyboardShortcutIcon]\) to discard your changes.  To remove shortcuts for a specifc action, use the **Delete shortcut** icon \(![DeleteKeyboardShortcut][ImageDeleteKeyboardShortcutIcon]\).  To add multiple shortcuts for an action, select **Add a shortcut**.
+
 ## Previous experimental features  
 
 *   [3D View][Devtools3dViewIndex] is now available and turned on by default in Microsoft Edge version 83 or later.  
@@ -242,6 +278,11 @@ To provide feedback on Microsoft Edge DevTools experiments, or anything else rel
 [ImageRotateIcon]: ./media/rotate-dark-icon.msft.png  
 [ImageSpanIcon]: ./media/span-dark-icon.msft.png  
 [ImageExperimentalApisIcon]: ./media/experimental-apis-dark-icon.msft.png  
+[ImageEditKeyboardShortcutIcon]: ./media/edit-keyboard-shortcut-icon.msft.png  
+[ImageCheckmarkKeyboardShortcutIcon]: ./media/checkmark-keyboard-shortcut-icon.msft.png  
+[ImageCustomKeyboardShortcutIcon]: ./media/custom-keyboard-shortcut-icon.msft.png  
+[ImageDeleteKeyboardShortcutIcon]: ./media/delete-keyboard-shortcut-icon.msft.png  
+[ImageXKeyboardShortcutIcon]: ./media/discard-changes-keyboard-shortcut-icon.msft.png  
 
 <!-- links -->  
 
