@@ -251,6 +251,9 @@ On the **Shortcuts** page, the **Custom Keyboard Shortcut** icon \(![CustomKeybo
 
 When editing the keyboard shortcuts for an action, select the X \(![XKeyboardShortcut][ImageXKeyboardShortcutIcon]\) to discard your changes.  To remove shortcuts for a specifc action, use the **Delete shortcut** icon \(![DeleteKeyboardShortcut][ImageDeleteKeyboardShortcutIcon]\).  To add multiple shortcuts for an action, select **Add a shortcut**.
 
+> [!NOTE]
+> You are not able to save a keyboard shortcut that is currently in use by another action. You must first delete the keyboard shortcut for that action and then add it to the action you want to customize.
+
 ## Previous experimental features  
 
 *   [3D View][Devtools3dViewIndex] is now available and turned on by default in Microsoft Edge version 83 or later.  
